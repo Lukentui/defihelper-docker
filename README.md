@@ -51,13 +51,13 @@ docker-compose up -d
 
 ## Is something goes wrong
 
-    * `docker-compose down --rmi all`
-    * `docker stop $(docker ps -a -q)`
-    * `docker rm $(docker ps -a -q)`
-    * `docker system prune`
-    * `docker images prune`
-    * `docker volume prune`
-    * go to step 1
+ * `docker-compose down --rmi all`
+ * `docker stop $(docker ps -a -q)`
+ * `docker rm $(docker ps -a -q)`
+ * `docker system prune`
+ * `docker images prune`
+ * `docker volume prune`
+ * go to step 1
 
 ### To update all images
 
